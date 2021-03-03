@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import Product from "../components/Products";
-import axios from 'axios';
 import LoadingBox from '../components/LoadingBox';
 import MessageBox from '../components/MessageBox';
 import { useDispatch, useSelector } from 'react-redux';
